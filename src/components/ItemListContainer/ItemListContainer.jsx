@@ -2,10 +2,10 @@ import React from 'react'
 import style from './itemListContainer.module.css'
 
 
-const ItemListContainer = () => {
+const ItemListContainer = ( {greeting} ) => {
   return (
     <div  className={style.container}>
-      <h1>Welcome!</h1>
+      <h1>{greeting}</h1>
     </div>
   )
 }

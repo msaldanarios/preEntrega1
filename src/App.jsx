@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer />
+      <ItemListContainer greeting="Welcome to Mosita Clothes" />
     </div>
   )
 }
